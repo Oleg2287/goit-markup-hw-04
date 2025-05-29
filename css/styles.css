@@ -132,6 +132,7 @@ body{
         padding-top: 188px;
         padding-bottom: 188px;
         background-image: url("../svg/dark-bg.svg"), url("../images/people-office.jpg");
+        max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center, center;
         background-size: cover, cover;
@@ -214,12 +215,24 @@ body{
         background-color: #fff;         
     }
 
-    .icon{
+    .icon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #F4F4FD;
+        margin-bottom: 8px;
+    }
+
+    /* .icon{
        border: 1px solid var(--light-slate);
        border-radius: 4px;
        width: 64px;
        height: 64px;  
-    }
+    } */
      
     .visually-hidden {
         position: absolute;
