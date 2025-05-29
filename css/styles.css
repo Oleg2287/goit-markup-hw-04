@@ -296,16 +296,20 @@ body{
         color: var(--slate);
     }
 
-    /* .team-icon{
-        fill: #434455;
+    /* .team-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 16px;
     } */
 
     .list-our-team .team-icon{
-        /* display: flex;
+        /* display: flex; */
         justify-content: center;
-        align-items: center; */
-        width: 40px;
-        height: 40px;
+        align-items: center;
+        width: 16px;
+        height: 16px;
         border-radius: 50%;
         background-color: #03a9f4;
     }
