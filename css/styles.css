@@ -134,8 +134,8 @@ body{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg"), url("../images/Dark-bg.jpg");
         max-width: 1440px;
         background-repeat: no-repeat;
-        background-position: center, center;
-        background-size: cover, cover;
+        background-position: center;
+        background-size: cover;
     }
     .mine-title{
         font-weight: 700;
