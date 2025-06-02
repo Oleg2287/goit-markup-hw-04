@@ -441,7 +441,8 @@ body{
     }
 
     .footer-logotext-blok{
-        max-width: 264px;     
+        max-width: 264px;
+        margin-right: 120px;     
     }
 
     .container-footer{
@@ -451,8 +452,7 @@ body{
     
      .social-media {
         display: flex;
-        flex-direction: column;
-        margin-left: 120px; 
+        flex-direction: column;         
     }
 
     .social-list{
